@@ -27,6 +27,7 @@ public class SerializableObject implements Externalizable {
     public void writeExternal(ObjectOutput out) throws IOException {
         out.writeInt(id);
         out.writeUTF(name);
+
     }
 
     @Override

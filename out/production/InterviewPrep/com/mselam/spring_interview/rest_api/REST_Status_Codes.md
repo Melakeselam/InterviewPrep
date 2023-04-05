@@ -1,0 +1,21 @@
+# REST API Response Status Codes
+
+- ### 200 OK
+- ### 201 Created
+  - ###### Successful creation after POST
+- ### 204 No Content
+  - ###### Successful DELETE
+- ### 304 Not Modified
+  - ###### Used for conditional GET calls to reduce band-width usage
+- ### 400 Bad Request
+  - ###### General error
+- ### 401 Unauthorized
+  - ###### Missing or invalid authentication
+- ### 403 Forbidden
+  - ###### User is not authorized
+- ### 404 Not Found
+  - ###### Resource could not be found
+- ### 409 Conflict
+  - ###### E.g., duplicate entries and deleting root objects when cascade-delete is not supported
+- ### 500 Internal Server Error
+  - ###### General catch-all for server-side exceptions
