@@ -1,4 +1,4 @@
-package com.mselam.codility;
+package com.mselam.codility.sorting;
 
 import java.util.Arrays;
 import java.util.stream.IntStream;

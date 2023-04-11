@@ -1,8 +1,8 @@
-package com.mselam.codility;
+package com.mselam.codility.stackandqueues;
 
 import java.util.Stack;
 
-public class FishEatFish {
+public class Fish {
     public static int solution(int[] A, int[] B) {
         // upstream fish are not moving only downstream ones
         // B -> 0 1 never meat because they have passed each other

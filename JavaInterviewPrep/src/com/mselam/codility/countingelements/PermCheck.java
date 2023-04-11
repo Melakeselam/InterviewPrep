@@ -1,9 +1,9 @@
-package com.mselam.codility;
+package com.mselam.codility.countingelements;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class CheckPermutation {
+public class PermCheck {
     public static int solution(int[] A) {
         Set<Integer> elements = new HashSet<>();
         for(int i = 1; i <= A.length; i++){

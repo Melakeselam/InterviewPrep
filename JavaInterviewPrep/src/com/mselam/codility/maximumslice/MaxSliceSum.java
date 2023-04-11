@@ -1,4 +1,4 @@
-package com.mselam.codility;
+package com.mselam.codility.maximumslice;
 
 public class MaxSliceSum {
     public int solution(int[] A) {

@@ -1,4 +1,4 @@
-package com.mselam.codility;
+package com.mselam.codility.primeandcomposite;
 
 public class MinPerimeterRectangle {
     public int solution(int N) {

@@ -1,9 +1,9 @@
-package com.mselam.codility;
+package com.mselam.codility.arrays;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class OddOneOut {
+public class OddOccurrencesInArray {
     public static int sollution(int[] A){
         Set<Integer> unpaired = new HashSet<>();
         for(int a:A){

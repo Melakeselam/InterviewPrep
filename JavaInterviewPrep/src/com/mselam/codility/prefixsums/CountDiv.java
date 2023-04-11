@@ -1,4 +1,4 @@
-package com.mselam.codility;
+package com.mselam.codility.prefixsums;
 
 public class CountDiv {
     public static int solution(int A, int B, int K) {

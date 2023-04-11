@@ -1,4 +1,4 @@
-package com.mselam.codility;
+package com.mselam.codility.leader;
 
 import java.util.HashMap;
 import java.util.Map;

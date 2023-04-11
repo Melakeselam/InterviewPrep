@@ -1,6 +1,6 @@
-package com.mselam.codility;
+package com.mselam.codility.iterations;
 
-public class ZeroGaps {
+public class BinaryGap {
     public static void main(String[] args) {
         String s = Integer.toBinaryString(2147383647);
         int maxZeros = 0;

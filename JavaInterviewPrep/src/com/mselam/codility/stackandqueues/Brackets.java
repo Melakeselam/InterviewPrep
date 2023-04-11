@@ -1,4 +1,4 @@
-package com.mselam.codility;
+package com.mselam.codility.stackandqueues;
 
 import java.util.Stack;
 

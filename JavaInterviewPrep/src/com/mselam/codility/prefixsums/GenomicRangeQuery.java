@@ -1,4 +1,4 @@
-package com.mselam.codility;
+package com.mselam.codility.prefixsums;
 
 import java.util.Arrays;
 

@@ -1,10 +1,8 @@
-package com.mselam.codility;
+package com.mselam.codility.countingelements;
 
-import java.sql.Array;
 import java.util.*;
-import java.util.stream.IntStream;
 
-public class IncrementCounters {
+public class MaxCounters {
     public static int[] solution(int N, int[] A) {
         int[] counters = new int[N];
         int maxValue = 0, allMaximizeTo = 0;

@@ -1,8 +1,8 @@
-package com.mselam.codility;
+package com.mselam.codility.stackandqueues;
 
 import java.util.Stack;
 
-public class StoneWallSkyline {
+public class StoneWall {
 
     private Stack<Integer> blocks = new Stack<>();
 
@@ -28,6 +28,6 @@ public class StoneWallSkyline {
     }
 
     public static void main(String[] args) {
-        System.out.println(new StoneWallSkyline().solution(new int[]{8,8,5,7,9,8,7,4,8}));
+        System.out.println(new StoneWall().solution(new int[]{8,8,5,7,9,8,7,4,8}));
     }
 }

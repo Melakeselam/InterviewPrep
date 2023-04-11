@@ -1,9 +1,6 @@
-package com.mselam.codility;
+package com.mselam.codility.sorting;
 
-import java.util.Comparator;
-import java.util.PriorityQueue;
-
-public class MaxProductTripplets {
+public class MaxProductOfThree {
 
     private static int[] smallest = new int[]{Integer.MAX_VALUE,Integer.MAX_VALUE};
     private static int[] largest = new int[]{Integer.MIN_VALUE,Integer.MIN_VALUE,Integer.MIN_VALUE};

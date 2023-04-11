@@ -1,6 +1,6 @@
-package com.mselam.codility;
+package com.mselam.codility.primeandcomposite;
 
-public class PrimeFactor {
+public class CountFactors {
     public int solution(int N) {
         if(N == 1) return 1;
         int count = 2;
@@ -17,7 +17,7 @@ public class PrimeFactor {
     }
 
     public static void main(String[] args) {
-        PrimeFactor app = new PrimeFactor();
+        CountFactors app = new CountFactors();
         System.out.println(app.solution(1));
         System.out.println(app.solution(2));
         System.out.println(app.solution(3));

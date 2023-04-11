@@ -1,6 +1,6 @@
-package com.mselam.codility;
+package com.mselam.codility.timecomplexity;
 
-public class MinSumOfTwoSections {
+public class TapeEquilibrium {
     public static int solution(int[] A){
         int total = 0;
         for(int a:A)

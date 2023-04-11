@@ -1,9 +1,9 @@
-package com.mselam.codility;
+package com.mselam.codility.countingelements;
 
 import java.util.HashSet;
 import java.util.Set;
 
-public class TimeToJumpAcross {
+public class FrogRiverOne {
 
     public static int solution(int X, int[] A){
         Set<Integer> emptyPos = new HashSet<>();

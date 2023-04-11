@@ -1,4 +1,4 @@
-package com.mselam.codility;
+package com.mselam.codility.countingelements;
 
 import java.util.HashSet;
 import java.util.Set;

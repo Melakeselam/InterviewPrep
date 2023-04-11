@@ -1,8 +1,8 @@
-package com.mselam.codility;
+package com.mselam.codility.arrays;
 
 import java.util.Arrays;
 
-public class ShiftArray {
+public class CyclicRotation {
     public static int[] solution(int[] A, int K){
         if(A.length == 0) return A;
         if(K > A.length) K = K % A.length;
